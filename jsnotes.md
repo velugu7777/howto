@@ -1,1 +1,1 @@
-How t0 declare variables 
+#How to declare variables 
