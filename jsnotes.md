@@ -17,7 +17,15 @@
 	status:true/false
 ###How to declare Arrays
 	var myArray = [];
-	var scores = ["20","30","40","50"];		
+	var scores = ["20","30","40","50"];
+###Operators
+	operators there types 
+	1.Arthamatic
+		=,+,-,*,/,%	
+	2.Logical
+		AND &&
+		OR ||
+		NOT !
 ##Decision Making -The if and switch statements
 ###if Statement
 	if (a > b){
