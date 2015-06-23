@@ -62,6 +62,44 @@
 	default:
 		// default code
 		break;
+##Looping -The for And while Statements
+##for Statement
+	for (i =0; i < 10; i++){
+		console.log("10");
+	}
+	1.initialize i to 0;
+	2.check each time that i less than 10;
+	3.increment i for each loop after the first
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	
 	
