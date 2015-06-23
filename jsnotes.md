@@ -68,7 +68,7 @@
 ##Looping -The for And while Statements
 ##for Statement
 	for (i =0; i < 10; i++){
-		console.log("10");
+		console.log("i");
 	}
 	1.initialize i to 0;
 	2.check each time that i less than 10;
@@ -89,12 +89,65 @@
 	function calc(){
 		// write some code here
 	}
-##How to call functions
+###How to call functions
 	function calc(){
 		//some code here
 	}	
 		var k = calc();
-		console.log();
+		console.log(k);
+##Objects
+###How to create objects
+	var person = {
+			name: "anji",
+			age: 25,
+			job: "software"
+			sayName:function(){
+			console.log(this.name);
+		}
+	};
+	
+   1.This example creates an object called person 
+		that has three properties (name, age and job)and
+		one method that is sayName(); this method dispaly value of this.name
+	2.here the property called name is created and value of "anji" is assigned
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
