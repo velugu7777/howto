@@ -34,5 +34,20 @@
 	//(a>b)....this test conditon
 	// if .. test condtion true then excuete 
 	//	 all the code inside curyly braces 
+###else Statement
+	if (myAge > 0 && myAge < 30){
+		console.log("myAge is between 0 and 30");
+	} else {	
+		console.log("myAge is not between 0 and 30");
+	}
+###else if statement
+	if (a - b){
+		//some code here
+		} else if(b - c){
+			// some code here
+	}		
+
+
+
 	
 	
