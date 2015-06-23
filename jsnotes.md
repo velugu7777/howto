@@ -50,7 +50,9 @@
 	} else {	
 		console.log("myAge is not between 0 and 30");
 	}
+```	
 ###else if statement
+```js
 	if (a - b){
 		//some code here
 		} else if(b - c){
@@ -77,7 +79,7 @@
 ```		
 ##Looping -The for And while Statements
 ##for Statement
-```
+```js
 	for (i =0; i < 10; i++){
 		console.log("i");
 	}
