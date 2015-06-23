@@ -70,7 +70,18 @@
 	1.initialize i to 0;
 	2.check each time that i less than 10;
 	3.increment i for each loop after the first
+##while statement
+	while(i ! = 10){
+		// some code here
+	}
+		condition - keep looping while this condition
+						is till true
+##do while staement
+	do{
+		// some code here
 
+	}
+	while(tset condtion);
 
 
 
