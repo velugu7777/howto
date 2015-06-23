@@ -1,6 +1,9 @@
 ###How to declare variables
 	 var i;
 	 var sum;
+###Variable scope
+	*variable declare outside the function body thant can use any ware in page
+	*variable declare inside the function body that is private 
 ###Data types
 	String
 	Numbers
