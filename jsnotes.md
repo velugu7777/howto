@@ -7,4 +7,14 @@
 	Date
 	Null
 	Undefined
-	Booleons
+	Booleans
+###How to declare Strings
+	var my name = "anji";
+###How to Assign Numbers
+	var a = 19;
+	var b = 20;
+###How to declare Booleans
+	status:true/false
+
+	
+	
