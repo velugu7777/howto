@@ -46,8 +46,22 @@
 		} else if(b - c){
 			// some code here
 	}		
-
-
+### switch Statement
+	switch statement has four important elements
+	1.The test experssion
+	2.The case statements
+	3.The break statements
+	4.The default statement
+	switch (myName)
+	case "anji":
+		//some code
+		break;
+	case "velugu":
+		// some other code
+		break;
+	default:
+		// default code
+		break;
 
 	
 	
