@@ -82,7 +82,16 @@
 
 	}
 	while(tset condtion);
-
+###How to create functions
+	function calc(){
+		// write some code here
+	}
+##How to call functions
+	function calc(){
+		//some code here
+	}	
+		var k = calc();
+		console.log();
 
 
 
