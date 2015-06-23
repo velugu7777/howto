@@ -17,6 +17,7 @@
 	status:true/false
 ###How to declare Arrays
 	var myArray = [];
+	Arrays are a special type of variable that can hold more than one piece     of data. The data are inserted and accessed by means of a unique index number.
 
 	
 	
