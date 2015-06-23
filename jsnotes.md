@@ -110,6 +110,41 @@
 		that has three properties (name, age and job)and
 		one method that is sayName(); this method dispaly value of this.name
 	2.here the property called name is created and value of "anji" is assigned
+###constructor Object pattern
+	fubction Person ("name,age,job"){
+	this.name = name;
+	this.age = age;
+	this.job = job;
+	this.sayName = function(){
+	console.log(this.name);
+	 };
+  }
+   var person1 = new person("anji","25","software");
+	var person2 = new person("velugu","25",software);
+###The prototype
+Each function is created with a prototype property,
+which is an object containing properties and methods.
+	function Person(){
+		}
+			Person.prototype.name = "anji";
+			Person.prototype.age = 25;
+			Person.prototype.job = "software";
+			person.prototype.sayName =function() {
+			console.log(this.name);
+		};
+		var person1 = new Person();
+		person1.sayName();
+###Alternative syntax
+	function Person(){
+	}
+	Person.prototype ={
+	name : "anji",
+	age : 25,
+	job : "software",
+	sayName : function(){
+		console.log(this.name);
+		}
+   };
 	
 
 
