@@ -12,7 +12,7 @@
 	Undefined
 	Booleans
 ###How to declare Strings
-	var my name = "anji";
+	var myName = "anji";
 ###How to Assign Numbers
    var a = 19;
 	var b = 20;
@@ -118,9 +118,9 @@
 	this.sayName = function(){
 	console.log(this.name);
 	 };
-  }
-   var person1 = new person("anji","25","software");
-	var person2 = new person("velugu","25",software);
+	}
+		var person1 = new person("anji","25","software");
+		var person2 = new person("velugu","25",software);
 ###The prototype
 	Each function is created with a prototype property,
 	which is an object containing properties and methods.
