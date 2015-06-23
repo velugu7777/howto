@@ -15,6 +15,8 @@
 	var b = 20;
 ###How to declare Booleans
 	status:true/false
+###How to declare Arrays
+	var myArray = [];
 
 	
 	
