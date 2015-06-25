@@ -1,13 +1,14 @@
 ##Create Repositories
 Start a new repository
-###How init
+###How to init
 	git init[project-name]
 	Create a new local repository with the sepified name
-###git clone[url]
+###how to copy github file
+	git clone[url]
 	download a project and its entire version history
 ##Make changes
 Review edits and commit files
-###how to  add <file>
+###how to git add <file>
 	git add file like jsnotes.md
 ###how to do git commit
 	git commit -m ["message"]
