@@ -40,7 +40,19 @@
 				var colors = ["green","white","red","yellow"];
 				var k = colors.toString();
 				colors.toString(); //	It dispalys output  green , white,red,yellow
-```				
+```
+###How to use slice()
+```js
+					var numbers =[1,2,3,4,5];
+					numbers.slice(2);
+					// output displays start from [3,4,5]
+```
+###How to use push()
+```js
+				var colors = ["red","white"];
+				colors.push("green","blue"); // adding two other colors
+				//output dispalys [red,white,green,blue]
+```					 				
 ###Operators
 	operators there types
 	1.Arthamatic
