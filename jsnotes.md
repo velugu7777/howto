@@ -3,7 +3,7 @@
 	 var sum;
 ###Variable scope
 	*variable declare outside the function body thant can use any ware in page
-	*variable declare inside the function body that is private 
+	*variable declare inside the function body that is private
 ###Data types
 	String
 	Numbers
@@ -17,18 +17,34 @@
 ```js
    var a = 19;
 	var b = 20;
-```	
+```
 ###How to declare Booleans
 	status:true/false
-###How to declare Arrays
+##How to declare Arrays
 ```js
 	var myArray = [];
 	var scores = ["20","30","40","50"];
-```	
+```
+###How to find arrays length
+```js
+		var colors = ["green","white","red","yellow"];
+		var len = colors.length;
+		colors[1]; //It output dispalys white
+```
+		Notes
+			fisrt declare variable colors name
+			find array length
+			displays output(white)
+###How to use toString()
+```js
+				var colors = ["green","white","red","yellow"];
+				var k = colors.toString();
+				colors.toString(); //	It dispalys output  green , white,red,yellow
+```				
 ###Operators
-	operators there types 
+	operators there types
 	1.Arthamatic
-		=,+,-,*,/,%	
+		=,+,-,*,/,%
 	2.Logical
 		AND &&
 		OR ||
@@ -39,18 +55,18 @@
 	if (a > b){
 	//write the code here
 	}
-```	
+```
 	//(a>b)....this test conditon
-	// if .. test condtion true then excuete 
-	//	 all the code inside curyly braces 
+	// if .. test condtion true then excuete
+	//	 all the code inside curyly braces
 ###else Statement
 ```js
 	if (myAge > 0 && myAge < 30){
 		console.log("myAge is between 0 and 30");
-	} else {	
+	} else {
 		console.log("myAge is not between 0 and 30");
 	}
-```	
+```
 ###else if statement
 ```js
 	if (a - b){
@@ -58,14 +74,14 @@
 		} else if(b - c){
 			// some code here
 	}
-```	
+```
 ### switch Statement
 	switch statement has four important elements
 	1.The test experssion
 	2.The case statements
 	3.The break statements
 	4.The default statement
-```js	
+```js
 	switch (myName)
 	case "anji":
 		//some code
@@ -76,14 +92,14 @@
 	default:
 		// default code
 		break;
-```		
+```
 ##Looping -The for And while Statements
 ##for Statement
 ```js
 	for (i =0; i < 10; i++){
 		console.log("i");
 	}
-```	
+```
 	1.initialize i to 0;
 	2.check each time that i less than 10;
 	3.increment i for each loop after the first
@@ -92,7 +108,7 @@
 	while(i ! = 10){
 		// some code here
 	}
-```	
+```
 		condition - keep looping while this condition
 						is till true
 ##do while staement
@@ -102,7 +118,7 @@
 
 	}
 	while(tset condtion);
-```	
+```
 ###How to create functions
 	function calc(){
 		// write some code here
@@ -111,10 +127,10 @@
 ```js
 	function calc(){
 		//some code here
-	}	
+	}
 		var k = calc();
 		console.log(k);
-```		
+```
 ##Objects
 ###How to create objects
 ```js
@@ -126,9 +142,9 @@
 				console.log(this.name);
 		 }
 	};
-```	
-	
-   1.This example creates an object called person 
+```
+
+   1.This example creates an object called person
 		that has three properties (name, age and job)and
 		one method that is sayName(); this method dispaly value of this.name
 	2.here the property called name is created and value of "anji" is assigned
@@ -142,10 +158,10 @@
 		console.log(this.name);
 	  };
 	  }
-	
+
 		var person1 = new person("anji","25","software");
 		var person2 = new person("velugu","25",software);
-```		
+```
 ###The prototype
 	Each function is created with a prototype property,
 	which is an object containing properties and methods.
@@ -160,7 +176,7 @@
 		};
 			var person1 = new Person();
 			person1.sayName();
-```			
+```
 ###Alternative syntax
 ```js
 	function Person(){
@@ -173,72 +189,4 @@
 		console.log(this.name);
 	 }
 	};
-```	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-	
+```
