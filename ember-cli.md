@@ -17,6 +17,7 @@
     5.it will be create app/models/user.js
 
     after finishing this open user.js-app/models
+```js
       import DS from 'ember-data';
       import Ember from 'ember';
       To create object model
@@ -25,3 +26,4 @@
         age.DS.attr('number'),
         isMarried.DS.attr('boolean'),
         });
+```
