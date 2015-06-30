@@ -9,3 +9,8 @@
           ember new myapp //app name
           cd myapp // app name
           ember server
+###How to crete object code in ember model
+    1.open the  project
+    2.After open the project
+    3.Type in git [ember g model name(user)]
+    
