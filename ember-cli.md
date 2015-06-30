@@ -27,3 +27,36 @@
         isMarried.DS.attr('boolean'),
         });
 ```
+###How to genrate Routes
+    go to git type this ember g router user
+
+###How to write code in routes
+```js
+    syntax:
+    import Ember from 'ember';
+    export default Ember.Route.extend({
+      model:functon{
+        return[
+        {name:'anji',age:25},
+        {name:koti,age:32},
+        ];
+      }
+      });
+    <--- To be continued >  
+```
+###How to write a code in templates
+      
+###How to genrate controoler
+    go to git type this ember g controoler user
+###How to write code in controller
+```js
+    Syntax:
+        import Ember from 'ember';
+
+        export default Ember.controller.extend({
+
+          });
+        <--- To be contiued >
+```  
+###How to wrie code in router
+        <--- to be continued >
