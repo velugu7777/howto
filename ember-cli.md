@@ -13,4 +13,15 @@
     1.open the  project
     2.After open the project
     3.Type in git [ember g model name(user)]
-    
+    4.After installing ember g model user
+    5.it will be create app/models/user.js
+
+    after finishing this open user.js-app/models
+      import DS from 'ember-data';
+      import Ember from 'ember';
+      To create object model
+      export default DS.model.extend({
+        name.DS.attr('string'),
+        age.DS.attr('number'),
+        isMarried.DS.attr('boolean'),
+        });
