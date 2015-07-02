@@ -3,12 +3,22 @@
     After installing go to command
     Type this syntax npm ember-cli -g
 ##Getting started
+###How to install bower
+    npm install bower -g
+###how to  other static assets via Brocfile.js  
+      bower install bootstrap --save  // it will save a reference in bower.json file
+    
 ###how to see version
     ember -v
 ###how to create new app
           ember new myapp //app name
           cd myapp // app name
+
+          // this will serve on http://localhost:4200
+          // auto reloads whenever there is change in "app" folder
+          // for any changes outside "app" folder we need to restart the server
           ember server
+
 ###How to crete object code in ember model
     1.open the  project
     2.After open the project
@@ -45,7 +55,7 @@
     <--- To be continued >  
 ```
 ###How to write a code in templates
-      
+
 ###How to genrate controoler
     go to git type this ember g controoler user
 ###How to write code in controller
