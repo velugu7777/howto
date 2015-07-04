@@ -12,7 +12,7 @@ Review edits and commit files
 	git add file like jsnotes.md
 ###how to do git commit
 	git commit -m ["message"]
-###how to add git remote 
+###how to add git remote
 	git remote add origin https:github.com/velugu7777/howto.git
 ###How to push
 	git push -u origin master
@@ -20,9 +20,22 @@ Review edits and commit files
 	rm -r file name
 	rm -rf file name [force to delete]
 	git rm -- catched [file name]
-###How to see difference 
+###How to see difference
 	git diff
 ###How to display commit messages
-	git log 
+	git log
 	git log -p
-	
+###How to merge branches
+		step1:see which branch you are in
+		step2:any changes you done just save it
+		step3:check git status
+		step4:then now come to the git add .
+		step5:after git commit -m "updated"
+		step6:check status of branch
+		step7:after which branch changes made on come out
+		step8:after git checkout which branch you want to go
+			ex:git checkout master it will be switched to branch
+		step9:final step after this type git merge which branch to you want to merge
+		 		ex:git merge gh-pages
+		step10:git status
+		step11:git push origin --all
