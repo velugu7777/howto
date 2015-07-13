@@ -52,7 +52,10 @@
 				var colors = ["red","white"];
 				colors.push("green","blue"); // adding two other colors
 				//output dispalys [red,white,green,blue]
-```					 				
+```
+###how to splice()
+				var colors = ["red","white","blue","green"];
+				var del = colors.splice(0,1);	 					
 ###Operators
 	operators there types
 	1.Arthamatic

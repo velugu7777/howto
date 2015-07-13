@@ -38,4 +38,8 @@ Review edits and commit files
 		step9:final step after this type git merge which branch to you want to merge
 		 		ex:git merge gh-pages
 		step10:git status
-		step11:git push origin --all
+###	1.open github and create repository....username.github.io/projcet
+		2.it will be serve the file index.html folder
+		3.before that you have to create gh-pages branch in your project
+		4.follow the instructions above mentiond..
+		
