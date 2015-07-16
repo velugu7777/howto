@@ -69,16 +69,16 @@
         <--- To be contiued >
 ```  
 ###How to set LocalStorage Adapter
-  1.go to the application folder
-  2.open the git bash and
-  3.ember g adapter application (todo)
-  4.after that ember install ember-localstorage-adapter
-  4.after that go to the application.js and set the following in your application.js
-    export default DS.LSAdapter.extend({
-    namespace: 'api',
-  5.after  that go the app.js and set the following in your app
-    import DS from 'ember-data';
-    App.ApplicationSerializer = DS.LSSerializer.extend();
+      1.go to the application folder
+      2.open the git bash and
+      3.ember g adapter application (todo)
+      4.after that ember install ember-localstorage-adapter
+      4.after that go to the application.js and set the following in your application.js
+        export default DS.LSAdapter.extend({
+        namespace: 'api',
+      5.after  that go the app.js and set the following in your app
+        import DS from 'ember-data';
+        App.ApplicationSerializer = DS.LSSerializer.extend();
 ###How to run ember app in github
      1.go to the git and type....ember build --environment production
      2.open the dist in your project and copy the files to your app
@@ -90,5 +90,3 @@
 
        <script src="http://velugu7777.github.io/vtodoapp/assets/vendor-4b14358b7a4d1760f54b91c322283000.js"></script>
        <script src="http://velugu7777.github.io/vtodoapp/assets/atodo-e4eface054dc1df8b4cbe9e58f9a9f97.js"></script>
-
-       

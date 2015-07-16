@@ -26,20 +26,19 @@ Review edits and commit files
 	git log
 	git log -p
 ###How to merge branches
-		step1:see which branch you are in
-		step2:any changes you done just save it
-		step3:check git status
-		step4:then now come to the git add .
-		step5:after git commit -m "updated"
-		step6:check status of branch
-		step7:after which branch changes made on come out
-		step8:after git checkout which branch you want to go
-			ex:git checkout master it will be switched to branch
-		step9:final step after this type git merge which branch to you want to merge
-		 		ex:git merge gh-pages
-		step10:git status
+			step1:see which branch you are in
+			step2:any changes you done just save it
+			step3:check git status
+			step4:then now come to the git add .
+			step5:after git commit -m "updated"
+			step6:check status of branch
+			step7:after which branch changes made on come out
+			step8:after git checkout which branch you want to go
+				ex:git checkout master it will be switched to branch
+			step9:final step after this type git merge which branch to you want to merge
+			 		ex:git merge gh-pages
+			step10:git status
 ###	1.open github and create repository....username.github.io/projcet
 		2.it will be serve the file index.html folder
 		3.before that you have to create gh-pages branch in your project
 		4.follow the instructions above mentiond..
-		
